@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Quizz.iml" filepath="$PROJECT_DIR$/Quizz.iml" />
+      <module fileurl="file://C:\wamp64\www\git\ProjetQuizz\Quizz\Quizz.iml" filepath="C:\wamp64\www\git\ProjetQuizz\Quizz\Quizz.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\wamp64\www\git\ProjetQuizz\Quizz\app\app.iml" filepath="C:\wamp64\www\git\ProjetQuizz\Quizz\app\app.iml" />
     </modules>
   </component>
 </project>
