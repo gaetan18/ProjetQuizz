@@ -5,17 +5,16 @@ package com.example.gaetan.quizz.models;
  */
 
 public class Question {
-    int id;
-    String title;
-    String responseOne;
-    String responseTwo;
-    String responseThree;
-    String responseFour;
-    String theme;
-    int goodResponse;
+    private int id;
+    private String title;
+    private String responseOne;
+    private String responseTwo;
+    private String responseThree;
+    private String responseFour;
+    private String theme;
+    private int goodResponse;
 
     public Question(){}
-
 
     public int getId(){return this.id;}
     public void setId(int id){this.id = id;}
@@ -26,10 +25,10 @@ public class Question {
     public String getResponseOne(){return this.responseOne;}
     public void setResponseOne(String responseOne){ this.responseOne = responseOne;}
 
-    public String getResponseTwo(){ return this.responseTwo}
+    public String getResponseTwo(){ return this.responseTwo;}
     public void setResponseTwo(String responseTwo){}
 
-    public String getResponseThree(){return this.responseThree}
+    public String getResponseThree(){return this.responseThree;}
     public void setResponseThree(String responseThree){ this.responseThree = responseThree;}
 
     public String getResponseFour(){return this.responseFour;}
