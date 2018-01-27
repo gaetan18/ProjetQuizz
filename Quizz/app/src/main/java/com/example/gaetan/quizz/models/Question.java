@@ -9,12 +9,23 @@ public class Question {
     private String title;
     private String responseOne;
     private String responseTwo;
+
+    public Question(int id, String title, String responseOne, String responseTwo, String responseThree, String responseFour, String theme, int goodResponse) {
+        this.id = id;
+        this.title = title;
+        this.responseOne = responseOne;
+        this.responseTwo = responseTwo;
+        this.responseThree = responseThree;
+        this.responseFour = responseFour;
+        this.theme = theme;
+        this.goodResponse = goodResponse;
+    }
+
     private String responseThree;
     private String responseFour;
     private String theme;
     private int goodResponse;
 
-    public Question(){}
 
     public int getId(){return this.id;}
     public void setId(int id){this.id = id;}
@@ -26,7 +37,7 @@ public class Question {
     public void setResponseOne(String responseOne){ this.responseOne = responseOne;}
 
     public String getResponseTwo(){ return this.responseTwo;}
-    public void setResponseTwo(String responseTwo){}
+    public void setResponseTwo(String responseTwo){this.responseTwo = responseTwo;}
 
     public String getResponseThree(){return this.responseThree;}
     public void setResponseThree(String responseThree){ this.responseThree = responseThree;}
