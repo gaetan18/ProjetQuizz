@@ -22,13 +22,6 @@ import java.util.List;
 
         Button menu1 = findViewById(R.id.fastquizz);
 
-        menu1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent= new Intent(MainActivity.this, FastActivity.class);
-                startActivity(intent);
-            }
-        });
         dbm = new DataBaseManager(this);
         dbm.insertData();
         List<Question> questions = dbm.selectAll();
